@@ -1,12 +1,12 @@
-// Temporary client-side login gate for Watson testing only.
+// Temporary client-side login gate for Skinner Legacies testing only.
 // This is not secure and must be replaced with real server-side or hosting-level auth before any sensitive production use.
 (function() {
     'use strict';
 
-    const CONFIG = window.WATSON_AUTH_CONFIG || {};
-    const STORAGE_KEY = 'watson_temp_access_v1';
-    const TEST_USERNAME = 'watson';
-    const TEST_PASSWORD = 'W@t50n!';
+    const CONFIG = window.SL_AUTH_CONFIG || {};
+    const STORAGE_KEY = 'skinner_legacies_temp_access_v1';
+    const TEST_USERNAME = 'skinner';
+    const TEST_PASSWORD = 'Sk1nn3rL3gac135!';
 
     function hasAccess() {
         try {
@@ -15,7 +15,7 @@
             const parsed = JSON.parse(saved);
             return parsed && parsed.authenticated === true;
         } catch (error) {
-            console.error('Could not read Watson access state:', error);
+            console.error('Could not read Skinner Legacies access state:', error);
             return false;
         }
     }
@@ -57,14 +57,14 @@
     }
 
     function addLogoutButton() {
-        if (document.querySelector('[data-watson-logout]')) {
+        if (document.querySelector('[data-sl-logout]')) {
             return;
         }
 
         const button = document.createElement('button');
         button.type = 'button';
         button.textContent = 'Log out';
-        button.setAttribute('data-watson-logout', 'true');
+        button.setAttribute('data-sl-logout', 'true');
         button.style.cssText = [
             'position:fixed',
             'top:16px',
@@ -73,10 +73,10 @@
             'padding:10px 14px',
             'border:none',
             'border-radius:999px',
-            'background:#0f766e',
+            'background:#0f172a',
             'color:#ffffff',
             'font:600 14px/1.2 system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif',
-            'box-shadow:0 10px 25px rgba(15,118,110,0.22)',
+            'box-shadow:0 10px 25px rgba(15,23,42,0.22)',
             'cursor:pointer'
         ].join(';');
         button.addEventListener('click', function() {
@@ -114,10 +114,10 @@
             return;
         }
 
-        const form = document.getElementById('watson-login-form');
-        const usernameInput = document.getElementById('watson-username');
-        const passwordInput = document.getElementById('watson-password');
-        const errorBox = document.getElementById('watson-login-error');
+        const form = document.getElementById('sl-login-form');
+        const usernameInput = document.getElementById('sl-username');
+        const passwordInput = document.getElementById('sl-password');
+        const errorBox = document.getElementById('sl-login-error');
 
         if (!form || !usernameInput || !passwordInput || !errorBox) {
             return;
