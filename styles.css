@@ -238,6 +238,7 @@ p {
   font: inherit;
   font-weight: 700;
   text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .button:hover,
@@ -362,10 +363,39 @@ textarea {
   background: rgba(255, 255, 255, 0.03);
   color: var(--white);
   font: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.select-wrap {
+  position: relative;
+}
+
+.select-wrap::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: translateY(-65%) rotate(45deg);
+  pointer-events: none;
 }
 
 select {
   color-scheme: dark;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 2.75rem;
 }
 
 select option {
@@ -375,7 +405,7 @@ select option {
 
 input::placeholder,
 textarea::placeholder {
-  color: #8fa0b1;
+  color: #9dafc0;
 }
 
 textarea {
@@ -388,7 +418,30 @@ select:focus,
 textarea:focus {
   outline: 2px solid rgba(49, 80, 112, 0.4);
   outline-offset: 2px;
-  border-color: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 0 0 4px rgba(49, 80, 112, 0.12);
+}
+
+.success-card {
+  display: none;
+  margin-top: 1rem;
+  padding: 0.95rem 1rem;
+  border-radius: 16px;
+  border: 1px solid rgba(130, 194, 154, 0.24);
+  background: rgba(130, 194, 154, 0.12);
+  color: #d8f1df;
+}
+
+.success-card strong {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--white);
+}
+
+#thank-you:target,
+body.form-submitted #thank-you {
+  display: block;
 }
 
 .form-note {

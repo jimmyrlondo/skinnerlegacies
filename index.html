@@ -193,53 +193,61 @@
               If you are looking for services, exploring care options, or making a referral, send a
               quick message and Skinner Legacies can follow up with next steps.
             </p>
+            <div class="success-card" id="thank-you" tabindex="-1">
+              <strong>Thank you.</strong>
+              <span>Your message has been sent. Skinner Legacies can follow up with next steps.</span>
+            </div>
           </div>
 
           <form class="intake-form" action="https://formspree.io/f/xjgdwllg" method="POST">
             <div class="form-grid">
               <div class="form-row">
                 <label for="name">Full name</label>
-                <input id="name" name="name" type="text" required />
+                <input id="name" name="name" type="text" placeholder="Jane Doe" required />
               </div>
 
               <div class="form-row">
                 <label for="email">Email address</label>
-                <input id="email" name="email" type="email" required />
+                <input id="email" name="email" type="email" placeholder="name@example.com" required />
               </div>
 
               <div class="form-row">
                 <label for="phone">Phone number</label>
-                <input id="phone" name="phone" type="tel" />
+                <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555" />
               </div>
 
               <div class="form-row">
                 <label for="role">I am a</label>
-                <select id="role" name="role">
-                  <option value="">Please select</option>
-                  <option>Prospective client</option>
-                  <option>Parent or caregiver</option>
-                  <option>Family member</option>
-                  <option>Referral partner</option>
-                  <option>Community partner</option>
-                  <option>Other</option>
-                </select>
+                <div class="select-wrap">
+                  <select id="role" name="role">
+                    <option value="">Please select</option>
+                    <option>Prospective client</option>
+                    <option>Parent or caregiver</option>
+                    <option>Family member</option>
+                    <option>Referral partner</option>
+                    <option>Community partner</option>
+                    <option>Other</option>
+                  </select>
+                </div>
               </div>
             </div>
 
             <div class="form-row">
               <label for="service-interest">Service of interest</label>
-              <select id="service-interest" name="service_interest" required>
-                <option value="">Select a service</option>
-                <option>General Services</option>
-                <option>Community Psychiatric Support Treatment</option>
-                <option>Psychosocial Rehabilitative Services</option>
-                <option>Therapeutic Behavioral Health Services</option>
-                <option>Targeted Case Management</option>
-                <option>Mental Health Day Treatment</option>
-                <option>OhioRise Behavioral Respite</option>
-                <option>Crisis Intervention</option>
-                <option>Multiple services / not sure yet</option>
-              </select>
+              <div class="select-wrap">
+                <select id="service-interest" name="service_interest" required>
+                  <option value="">Select a service</option>
+                  <option>General Services</option>
+                  <option>Community Psychiatric Support Treatment</option>
+                  <option>Psychosocial Rehabilitative Services</option>
+                  <option>Therapeutic Behavioral Health Services</option>
+                  <option>Targeted Case Management</option>
+                  <option>Mental Health Day Treatment</option>
+                  <option>OhioRise Behavioral Respite</option>
+                  <option>Crisis Intervention</option>
+                  <option>Multiple services / not sure yet</option>
+                </select>
+              </div>
             </div>
 
             <div class="form-row">
@@ -254,7 +262,7 @@
             </div>
 
             <input type="hidden" name="_subject" value="New Skinner Legacies inquiry" />
-            <input type="hidden" name="_next" value="https://skinnerlegacies.com/#intake" />
+            <input type="hidden" name="_next" value="https://skinnerlegacies.com/?submitted=true#thank-you" />
 
             <button class="button button--primary button--full" type="submit">Submit Inquiry</button>
             <p class="form-note">
