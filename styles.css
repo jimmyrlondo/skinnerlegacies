@@ -364,6 +364,15 @@ textarea {
   font: inherit;
 }
 
+select {
+  color-scheme: dark;
+}
+
+select option {
+  background: var(--surface-alt);
+  color: var(--text);
+}
+
 input::placeholder,
 textarea::placeholder {
   color: #8fa0b1;
