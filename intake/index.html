@@ -60,19 +60,9 @@
             color: var(--gold-soft);
             margin-bottom: 18px;
         }
-        h1 { margin: 0 0 12px; font-size: clamp(2rem, 4vw, 2.6rem); line-height: 1.05; }
-        p { line-height: 1.6; }
+        h1 { margin: 0; font-size: clamp(2rem, 4vw, 2.6rem); line-height: 1.05; }
         .panel { background: var(--card); }
-        .panel h2 { margin-top: 0; font-size: 1.6rem; color: var(--navy); }
-        .note {
-            border: 1px solid rgba(212,175,55,0.45);
-            background: #fff8e1;
-            color: #7c5a00;
-            border-radius: 16px;
-            padding: 14px 16px;
-            margin-bottom: 20px;
-            font-size: 0.95rem;
-        }
+        .panel h2 { margin-top: 0; margin-bottom: 20px; font-size: 1.6rem; color: var(--navy); }
         form { display: grid; gap: 14px; }
         label { font-weight: 600; font-size: 0.95rem; }
         input {
@@ -116,22 +106,17 @@
             font-weight: 600;
             text-decoration: none;
         }
-        .small { color: var(--muted); font-size: 0.92rem; }
     </style>
 </head>
 <body>
-    <!-- Temporary client-side test gate only. Replace with real auth before any production-sensitive use. -->
     <main class="shell">
         <section class="intro">
             <span class="eyebrow">Skinner Legacies intake</span>
             <img src="images/logo.png" alt="Skinner Legacies logo">
             <h1>Skinner Legacies Forms Portal</h1>
-            <p>Use the temporary login to access the Skinner Legacies form library on this site.</p>
-            <p class="small">This gate is only intended to prevent casual access during testing. It is client-side only and is <strong>not secure enough</strong> for sensitive production use.</p>
         </section>
         <section class="panel">
             <h2>Sign in to continue</h2>
-            <div class="note">Temporary testing login only — this can be inspected or bypassed by someone with browser access, so it should be replaced later with real authentication.</div>
             <div id="sl-login-error" class="error" hidden>Incorrect username or password. Please try again.</div>
             <form id="sl-login-form">
                 <label>
