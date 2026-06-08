@@ -13,11 +13,8 @@
             --navy: #0f172a;
             --navy-soft: #1e293b;
             --gold: #d4af37;
-            --gold-soft: #f6e7a8;
             --ink: #1f2937;
-            --muted: #64748b;
             --line: #cbd5e1;
-            --paper: #f8fafc;
             --card: #ffffff;
             --danger: #b91c1c;
         }
@@ -34,35 +31,27 @@
             padding: 24px;
         }
         .shell {
-            width: min(960px, 100%);
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            width: min(560px, 100%);
             overflow: hidden;
             border-radius: 24px;
             background: var(--card);
             box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
             border: 1px solid rgba(212,175,55,0.18);
         }
-        .intro, .panel { padding: 40px; }
-        .intro {
-            background: linear-gradient(180deg, rgba(15,23,42,0.97), rgba(30,41,59,0.96));
-            color: #fff;
+        .panel { padding: 40px; background: var(--card); }
+        .brand-banner {
+            display: block;
+            width: min(100%, 320px);
+            margin: 0 auto 24px;
+            height: auto;
         }
-        .intro img { width: 96px; max-width: 100%; margin-bottom: 20px; }
-        .eyebrow {
-            display: inline-block;
-            font-size: 12px;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
-            padding: 6px 10px;
-            border-radius: 999px;
-            background: rgba(212,175,55,0.16);
-            color: var(--gold-soft);
-            margin-bottom: 18px;
+        .panel h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 1.6rem;
+            color: var(--navy);
+            text-align: center;
         }
-        h1 { margin: 0; font-size: clamp(2rem, 4vw, 2.6rem); line-height: 1.05; }
-        .panel { background: var(--card); }
-        .panel h2 { margin-top: 0; margin-bottom: 20px; font-size: 1.6rem; color: var(--navy); }
         form { display: grid; gap: 14px; }
         label { font-weight: 600; font-size: 0.95rem; }
         input {
@@ -100,6 +89,7 @@
             flex-wrap: wrap;
             gap: 14px;
             margin-top: 22px;
+            justify-content: center;
         }
         .links a {
             color: var(--navy-soft);
@@ -110,12 +100,8 @@
 </head>
 <body>
     <main class="shell">
-        <section class="intro">
-            <span class="eyebrow">Skinner Legacies intake</span>
-            <img src="images/logo.png" alt="Skinner Legacies logo">
-            <h1>Skinner Legacies Forms Portal</h1>
-        </section>
         <section class="panel">
+            <img src="images/logobannertransparent.png" alt="Skinner Legacies banner logo" class="brand-banner">
             <h2>Sign in to continue</h2>
             <div id="sl-login-error" class="error" hidden>Incorrect username or password. Please try again.</div>
             <form id="sl-login-form">
