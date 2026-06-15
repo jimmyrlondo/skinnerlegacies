@@ -3,274 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skinner Legacies | Behavioral Health & Community Support</title>
-    <meta
-      name="description"
-      content="Skinner Legacies offers behavioral health, psychiatric support, community services, crisis intervention, and coordinated care for individuals and families."
-    />
+    <title>Skinner Legacies | Coming Soon</title>
+    <meta name="description" content="Skinner Legacies — something new is on the way." />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      .coming-soon-page {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        text-align: center;
+      }
+
+      .coming-soon-card {
+        width: min(560px, 100%);
+        border-radius: var(--radius-xl);
+        border: 1px solid var(--line);
+        background: linear-gradient(180deg, rgba(23, 34, 49, 0.92), rgba(13, 20, 29, 0.96));
+        box-shadow: var(--shadow);
+        padding: clamp(2rem, 6vw, 3.5rem);
+      }
+
+      .coming-soon-brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        color: var(--white);
+        font-weight: 800;
+        letter-spacing: 0.01em;
+      }
+
+      .coming-soon-brand img {
+        width: 48px;
+        height: 48px;
+        padding: 0.3rem;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+      }
+
+      .coming-soon-card h1 {
+        max-width: none;
+        font-size: clamp(2rem, 6vw, 3rem);
+        margin-bottom: 1rem;
+      }
+
+      .coming-soon-card p {
+        font-size: 1.05rem;
+        margin-bottom: 0;
+      }
+    </style>
   </head>
   <body>
-    <header class="topbar">
-      <div class="container topbar__inner">
-        <a class="brand" href="#top" aria-label="Skinner Legacies home">
-          <img src="images/logo.png" alt="Skinner Legacies logo" class="brand__logo" />
+    <div class="coming-soon-page">
+      <div class="coming-soon-card">
+        <a class="coming-soon-brand" href="/">
+          <img src="images/logo.png" alt="Skinner Legacies logo" />
           <span>Skinner Legacies</span>
         </a>
-        <nav aria-label="Primary">
-          <ul class="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#intake">Contact</a></li>
-          </ul>
-        </nav>
+        <p class="eyebrow">Stay tuned</p>
+        <h1>Coming Soon</h1>
+        <p>We're working on something great. Check back shortly.</p>
       </div>
-    </header>
-
-    <main id="top">
-      <section class="hero">
-        <div class="container hero__layout">
-          <div class="hero__content">
-            <p class="eyebrow">Behavioral health and community support</p>
-            <h1>Care that meets people with compassion, structure, and real support.</h1>
-            <p class="hero__lead">
-              Skinner Legacies offers person-centered services for individuals and families seeking
-              stability, guidance, and meaningful progress. We provide support that is responsive,
-              grounded, and built around everyday needs.
-            </p>
-            <div class="hero__actions">
-              <a class="button button--primary" href="#intake">Start an Inquiry</a>
-              <a class="button button--secondary" href="#services">Explore Services</a>
-            </div>
-          </div>
-
-          <div class="hero__stack" aria-label="Skinner Legacies overview">
-            <article class="feature-panel">
-              <p class="feature-panel__eyebrow">Focused care</p>
-              <h2>Support that feels calm, clear, and personal.</h2>
-              <p>
-                Our approach brings together community-based care, behavioral health support, and
-                practical coordination for clients and families.
-              </p>
-            </article>
-
-            <article class="feature-list-card">
-              <h3>What we value</h3>
-              <ul class="feature-list">
-                <li>Compassionate communication</li>
-                <li>Family-informed care</li>
-                <li>Support rooted in dignity</li>
-                <li>Services designed for real life</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="about">
-        <div class="container intro-panel">
-          <div>
-            <p class="eyebrow">About Skinner Legacies</p>
-            <h2>A trusted space for care, connection, and forward movement.</h2>
-          </div>
-          <p>
-            Skinner Legacies is designed to support individuals and families through services that
-            strengthen emotional wellness, build daily stability, and connect people with the care
-            they need. This site can continue to evolve as programs, team information, and service
-            details grow.
-          </p>
-        </div>
-      </section>
-
-      <section class="section" id="services">
-        <div class="container services-layout">
-          <div class="section-heading">
-            <p class="eyebrow">Services</p>
-            <h2>Areas of support</h2>
-            <p class="section-intro">
-              These descriptions can be edited anytime as your offerings and intake flow become more
-              specific.
-            </p>
-          </div>
-
-          <div class="service-list">
-            <article class="service-item">
-              <h3>General Services</h3>
-              <p>
-                Flexible support options that help individuals and families access care, guidance,
-                and resources that fit their needs.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>Community Psychiatric Support Treatment</h3>
-              <p>
-                Community-based support focused on stability, coping skills, daily functioning, and
-                progress toward behavioral health goals.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>Psychosocial Rehabilitative Services</h3>
-              <p>
-                Skill-building support that encourages independence, confidence, and stronger social
-                and emotional functioning.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>Therapeutic Behavioral Health Services</h3>
-              <p>
-                Therapeutic care that supports emotional wellness, behavioral growth, and practical
-                next steps for individuals and families.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>Targeted Case Management</h3>
-              <p>
-                Coordinated planning and advocacy that helps connect clients to providers, services,
-                referrals, and supportive resources.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>Mental Health Day Treatment</h3>
-              <p>
-                Structured daytime support that encourages routine, engagement, therapeutic
-                participation, and ongoing progress.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>OhioRise Behavioral Respite</h3>
-              <p>
-                Respite support that offers relief for caregivers while maintaining attentive,
-                stabilizing care for youth and families.
-              </p>
-            </article>
-
-            <article class="service-item">
-              <h3>Crisis Intervention</h3>
-              <p>
-                Responsive care during urgent moments to help de-escalate challenges, support safety,
-                and guide families toward next steps.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section--muted">
-        <div class="container quiet-band">
-          <div>
-            <p class="eyebrow">Our approach</p>
-            <h2>Thoughtful, community-based support for real-life needs.</h2>
-          </div>
-          <div class="quiet-band__grid">
-            <article>
-              <h3>Responsive</h3>
-              <p>We aim to meet people where they are and help them move toward stability.</p>
-            </article>
-            <article>
-              <h3>Connected</h3>
-              <p>We build care around people, families, relationships, and support systems.</p>
-            </article>
-            <article>
-              <h3>Practical</h3>
-              <p>We focus on support that feels useful, grounded, and sustainable over time.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="intake">
-        <div class="container contact-layout">
-          <div class="contact-panel">
-            <p class="eyebrow">Inquiry form</p>
-            <h2>Reach out to start the conversation.</h2>
-            <p>
-              If you are looking for services, exploring care options, or making a referral, send a
-              quick message and Skinner Legacies can follow up with next steps.
-            </p>
-            <div class="success-card" id="thank-you" tabindex="-1">
-              <strong>Thank you.</strong>
-              <span>Your message has been sent. Skinner Legacies can follow up with next steps.</span>
-            </div>
-          </div>
-
-          <form class="intake-form" action="https://formspree.io/f/xjgdwllg" method="POST">
-            <div class="form-grid">
-              <div class="form-row">
-                <label for="name">Full name</label>
-                <input id="name" name="name" type="text" placeholder="Jane Doe" required />
-              </div>
-
-              <div class="form-row">
-                <label for="email">Email address</label>
-                <input id="email" name="email" type="email" placeholder="name@example.com" required />
-              </div>
-
-              <div class="form-row">
-                <label for="phone">Phone number</label>
-                <input id="phone" name="phone" type="tel" placeholder="(555) 555-5555" />
-              </div>
-
-              <div class="form-row">
-                <label for="role">I am a</label>
-                <div class="select-wrap">
-                  <select id="role" name="role">
-                    <option value="">Please select</option>
-                    <option>Prospective client</option>
-                    <option>Parent or caregiver</option>
-                    <option>Family member</option>
-                    <option>Referral partner</option>
-                    <option>Community partner</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-
-            <div class="form-row">
-              <label for="service-interest">Service of interest</label>
-              <div class="select-wrap">
-                <select id="service-interest" name="service_interest" required>
-                  <option value="">Select a service</option>
-                  <option>General Services</option>
-                  <option>Community Psychiatric Support Treatment</option>
-                  <option>Psychosocial Rehabilitative Services</option>
-                  <option>Therapeutic Behavioral Health Services</option>
-                  <option>Targeted Case Management</option>
-                  <option>Mental Health Day Treatment</option>
-                  <option>OhioRise Behavioral Respite</option>
-                  <option>Crisis Intervention</option>
-                  <option>Multiple services / not sure yet</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="form-row">
-              <label for="message">How can we help?</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                placeholder="Share a brief overview of what you are looking for."
-                required
-              ></textarea>
-            </div>
-
-            <input type="hidden" name="_subject" value="New Skinner Legacies inquiry" />
-            <input type="hidden" name="_next" value="https://skinnerlegacies.com/?submitted=true#thank-you" />
-
-            <button class="button button--primary button--full" type="submit">Submit Inquiry</button>
-            <p class="form-note">
-              Please do not include highly sensitive medical information in this message.
-            </p>
-          </form>
-        </div>
-      </section>
-    </main>
+    </div>
   </body>
 </html>
