@@ -47,16 +47,11 @@ nothing here is due all at once, and "I don't know yet" is a fine answer.
 - [ ] Anything you want the referral form to ask that it doesn't currently (it currently asks: name, email, phone, "I am a...", service of interest, message)
 - [ ] Do you want a phone/fax number for referral partners who'd rather not use a web form?
 
-## 8. Clinical forms portal (the password-protected intake forms)
-- [ ] Who needs access - just you, or staff/clinicians too? (Right now it's one shared login; let us know if you want individual accounts later.)
-- [ ] Any of the 11 forms currently loaded that you don't actually use, or any missing?
-- [ ] Confirm you're comfortable with the current security setup for now (see note below) or want it upgraded before real client data goes in it.
-
-## 9. Trust signals (optional but helps a new agency look established)
+## 8. Trust signals (optional but helps a new agency look established)
 - [ ] Any licenses/certifications/accreditations to display (e.g. OMHAS certification number once issued)
 - [ ] Testimonials or quotes you're allowed to share (even anonymized)
 - [ ] Any photos of your space, team, or community events you're comfortable posting
 
-## 10. Social / other
+## 9. Social / other
 - [ ] Facebook/Instagram/LinkedIn links, if any
 - [ ] Anything else you want visitors to see that isn't covered above
