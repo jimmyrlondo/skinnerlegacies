@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" type="image/png" href="../images/goldlogo.png">
+    <link rel="icon" type="image/png" href="../images/logo.png">
     <meta name="description" content="Child Diagnostic Evaluation form for Watson Community Health Center. Save, export, and print legally binding clinical documents securely and accessibly.">
     <meta property="og:title" content="Child Diagnostic Evaluation - Watson Community Health Center">
     <meta property="og:description" content="Comprehensive child diagnostic evaluation form with save/export/print features for clinical use.">
-    <meta property="og:image" content="../images/goldlogo.png">
+    <meta property="og:image" content="../images/logo.png">
     <meta property="og:type" content="website">
     
   <!-- HIGH CONTRAST: Load preference IMMEDIATELY before styles -->
@@ -20,7 +20,7 @@
     (function() {
         window.__isRestoring = false;
         try {
-            const prefs = JSON.parse(localStorage.getItem('wchc_user_preferences') || '{}');
+            const prefs = JSON.parse(localStorage.getItem('sl_user_preferences') || '{}');
             if (prefs.highContrast) {
                 document.documentElement.classList.add('high-contrast-mode');
             }
@@ -177,7 +177,7 @@
   .form-container { margin-left: 280px; } 
 }
     </style>
-    <script>window.WATSON_AUTH_CONFIG={mode:'protect',loginPath:'../index.html'};</script>
+    <script>window.SL_AUTH_CONFIG={mode:'protect',loginPath:'../index.html'};</script>
     <script src="../js/auth-gate.js"></script>
 </head>
 <body>
@@ -1977,7 +1977,7 @@
     const FORM_ID = 'child-de-v1';
     const FORM_NAME_PRINT = 'Child/Adolescent Diagnostic Evaluation';
     const FORM_ELEMENT_ID = 'childEvalForm';
-    const PREFS_KEY = 'wchc_user_preferences';
+    const PREFS_KEY = 'sl_user_preferences';
     
      // --- LOAD PREFERENCES ---
     function loadPreferences() {

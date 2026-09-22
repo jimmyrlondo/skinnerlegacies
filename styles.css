@@ -423,6 +423,66 @@ textarea:focus {
   box-shadow: 0 0 0 4px rgba(49, 80, 112, 0.12);
 }
 
+.crisis-banner {
+  background: linear-gradient(135deg, #7a2a2a, #5c1f1f);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.crisis-banner__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 0;
+  font-size: 0.92rem;
+  color: #fbe4e4;
+}
+
+.crisis-banner__label {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.78rem;
+}
+
+.crisis-banner a {
+  color: var(--white);
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.quick-facts {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1.2rem 0 0;
+  padding: 1rem 1.1rem;
+  list-style: none;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.quick-facts li {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.quick-facts__label {
+  min-width: 80px;
+  font-weight: 700;
+  color: var(--taupe-500);
+}
+
+.quick-facts a {
+  text-decoration: none;
+}
+
+.quick-facts a:hover,
+.quick-facts a:focus-visible {
+  text-decoration: underline;
+}
+
 .success-card {
   display: none;
   margin-top: 1rem;

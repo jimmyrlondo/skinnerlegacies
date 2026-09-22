@@ -5,7 +5,7 @@
     <script>
     (function() {
         try {
-            const saved = localStorage.getItem('wchc_user_preferences');
+            const saved = localStorage.getItem('sl_user_preferences');
             if (saved) {
                 const prefs = JSON.parse(saved);
                 if (prefs.highContrast) {
@@ -696,7 +696,7 @@ html.high-contrast-mode textarea:disabled {
     </style>
     <!-- Load User Preferences -->
     <script src="../js/shared-preferences.js"></script>
-    <script>window.WATSON_AUTH_CONFIG={mode:'protect',loginPath:'../index.html'};</script>
+    <script>window.SL_AUTH_CONFIG={mode:'protect',loginPath:'../index.html'};</script>
     <script src="../js/auth-gate.js"></script>
 </head>
 <body>

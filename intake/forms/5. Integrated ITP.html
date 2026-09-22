@@ -8,18 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" type="image/png" href="../images/goldlogo.png">
+    <link rel="icon" type="image/png" href="../images/logo.png">
     <meta name="description" content="Integrated Individual Treatment Plan for Watson Community Health Center. Save, export, and print legally binding clinical documents securely and accessibly.">
     <meta property="og:title" content="Integrated ITP - Watson Community Health Center">
     <meta property="og:description" content="Comprehensive integrated treatment plan with save/export/print features for clinical use.">
-    <meta property="og:image" content="../images/goldlogo.png">
+    <meta property="og:image" content="../images/logo.png">
     <meta property="og:type" content="website">
     
     <script>
         // ==================== PREFERENCE LOADING (INLINE - RUNS BEFORE PAGE RENDERS) ====================
         (function() {
             try {
-                const prefs = JSON.parse(localStorage.getItem('wchc_user_preferences') || '{}');
+                const prefs = JSON.parse(localStorage.getItem('sl_user_preferences') || '{}');
                 
                 // Apply high contrast mode immediately
                 if (prefs.highContrast === true) {
@@ -231,7 +231,7 @@
             border-color: #FFFF00 !important;
         }
     </style>
-    <script>window.WATSON_AUTH_CONFIG={mode:'protect',loginPath:'../index.html'};</script>
+    <script>window.SL_AUTH_CONFIG={mode:'protect',loginPath:'../index.html'};</script>
     <script src="../js/auth-gate.js"></script>
 </head>
 <body>
