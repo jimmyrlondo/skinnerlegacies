@@ -533,14 +533,15 @@ p {
 }
 
 .quick-facts li {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
+  display: grid;
+  gap: 0.2rem;
 }
 
 .quick-facts__label {
-  min-width: 80px;
-  font-weight: 700;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--accent-text);
 }
 
