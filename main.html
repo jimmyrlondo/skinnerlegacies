@@ -6,24 +6,40 @@
     <title>Skinner Legacies | Behavioral Health & Community Support</title>
     <meta
       name="description"
-      content="Skinner Legacies offers behavioral health, psychiatric support, community services, crisis intervention, and coordinated care for individuals and families."
+      content="Skinner Legacies offers behavioral health, psychiatric support, community services, crisis intervention, and coordinated care for individuals and families in Berea, Ohio."
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="images/logo-official.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="topbar">
-      <div class="container topbar__inner">
+    <header class="site-header">
+      <div class="container site-header__inner">
         <a class="brand" href="#top" aria-label="Skinner Legacies home">
-          <img src="images/logo.png" alt="Skinner Legacies logo" class="brand__logo" />
-          <span>Skinner Legacies</span>
+          <img src="images/logo-official.png" alt="Skinner Legacies" />
         </a>
-        <nav aria-label="Primary">
-          <ul class="nav-list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#intake">Contact</a></li>
-          </ul>
-        </nav>
+        <div class="nav-cta">
+          <nav aria-label="Primary">
+            <ul class="nav-list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#founder">Our Team</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <a class="button button--primary" href="#contact">Start an Inquiry</a>
+        </div>
       </div>
     </header>
 
@@ -38,126 +54,122 @@
       <section class="hero">
         <div class="container hero__layout">
           <div class="hero__content">
-            <p class="eyebrow">Behavioral health and community support</p>
-            <h1>Care that meets people with compassion, structure, and real support.</h1>
+            <p class="eyebrow">Behavioral health and community support in Berea, Ohio</p>
+            <h1>Care that meets you where you are.</h1>
             <p class="hero__lead">
               Skinner Legacies offers person-centered services for individuals and families seeking
-              stability, guidance, and meaningful progress. We provide support that is responsive,
-              grounded, and built around everyday needs.
+              stability, guidance, and meaningful progress, support that is responsive, grounded, and
+              built around everyday needs.
             </p>
             <div class="hero__actions">
-              <a class="button button--primary" href="#intake">Start an Inquiry</a>
+              <a class="button button--primary" href="#contact">Start an Inquiry</a>
               <a class="button button--secondary" href="#services">Explore Services</a>
             </div>
           </div>
-
-          <div class="hero__stack" aria-label="Skinner Legacies overview">
-            <article class="feature-panel">
-              <p class="feature-panel__eyebrow">Focused care</p>
-              <h2>Support that feels calm, clear, and personal.</h2>
-              <p>
-                Our approach brings together community-based care, behavioral health support, and
-                practical coordination for clients and families.
-              </p>
-            </article>
-
-            <article class="feature-list-card">
-              <h3>What we value</h3>
-              <ul class="feature-list">
-                <li>Compassionate communication</li>
-                <li>Family-informed care</li>
-                <li>Support rooted in dignity</li>
-                <li>Services designed for real life</li>
-              </ul>
-            </article>
+          <div class="hero__art" aria-hidden="true">
+            <i class="fa-solid fa-heart-pulse"></i>
           </div>
         </div>
       </section>
 
       <section class="section" id="about">
-        <div class="container intro-panel">
-          <div>
-            <p class="eyebrow">About Skinner Legacies</p>
-            <h2>A trusted space for care, connection, and forward movement.</h2>
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Whole-person care</p>
+            <h2>Every part of our mark reflects a part of the person we support.</h2>
+            <p>Skinner Legacies builds care around four things that shape wellbeing every day.</p>
           </div>
-          <p>
-            Skinner Legacies is designed to support individuals and families through services that
-            strengthen emotional wellness, build daily stability, and connect people with the care
-            they need. This site can continue to evolve as programs, team information, and service
-            details grow.
-          </p>
+          <div class="pillars">
+            <article class="pillar">
+              <i class="fa-solid fa-person-running" aria-hidden="true"></i>
+              <h3>Physical Wellbeing</h3>
+              <p>Encouraging movement and healthy routines as part of everyday stability.</p>
+            </article>
+            <article class="pillar">
+              <i class="fa-solid fa-book-open" aria-hidden="true"></i>
+              <h3>Learning &amp; Growth</h3>
+              <p>Building skills and knowledge that support independence over time.</p>
+            </article>
+            <article class="pillar">
+              <i class="fa-solid fa-brain" aria-hidden="true"></i>
+              <h3>Mental Health</h3>
+              <p>Clinical and community-based support for emotional and behavioral wellness.</p>
+            </article>
+            <article class="pillar">
+              <i class="fa-solid fa-spa" aria-hidden="true"></i>
+              <h3>Mindfulness &amp; Calm</h3>
+              <p>Helping individuals and families find steadiness in difficult moments.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section" id="services">
-        <div class="container services-layout">
+      <section class="section section--soft" id="services">
+        <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Services</p>
             <h2>Areas of support</h2>
-            <p class="section-intro">
-              These descriptions can be edited anytime as your offerings and intake flow become more
-              specific.
-            </p>
+            <p>These descriptions can be edited anytime as offerings and intake flow become more specific.</p>
           </div>
-
-          <div class="service-list">
-            <article class="service-item">
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-hands-holding-child" aria-hidden="true"></i></div>
               <h3>General Services</h3>
               <p>
                 Flexible support options that help individuals and families access care, guidance,
                 and resources that fit their needs.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-comments" aria-hidden="true"></i></div>
               <h3>Community Psychiatric Support Treatment</h3>
               <p>
                 Community-based support focused on stability, coping skills, daily functioning, and
                 progress toward behavioral health goals.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i></div>
               <h3>Psychosocial Rehabilitative Services</h3>
               <p>
                 Skill-building support that encourages independence, confidence, and stronger social
                 and emotional functioning.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-user-shield" aria-hidden="true"></i></div>
               <h3>Therapeutic Behavioral Health Services</h3>
               <p>
                 Therapeutic care that supports emotional wellness, behavioral growth, and practical
                 next steps for individuals and families.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-route" aria-hidden="true"></i></div>
               <h3>Targeted Case Management</h3>
               <p>
                 Coordinated planning and advocacy that helps connect clients to providers, services,
                 referrals, and supportive resources.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-sun" aria-hidden="true"></i></div>
               <h3>Mental Health Day Treatment</h3>
               <p>
                 Structured daytime support that encourages routine, engagement, therapeutic
                 participation, and ongoing progress.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i></div>
               <h3>OhioRise Behavioral Respite</h3>
               <p>
                 Respite support that offers relief for caregivers while maintaining attentive,
                 stabilizing care for youth and families.
               </p>
             </article>
-
-            <article class="service-item">
+            <article class="service-card">
+              <div class="service-card__icon"><i class="fa-solid fa-life-ring" aria-hidden="true"></i></div>
               <h3>Crisis Intervention</h3>
               <p>
                 Responsive care during urgent moments to help de-escalate challenges, support safety,
@@ -168,22 +180,22 @@
         </div>
       </section>
 
-      <section class="section section--muted">
-        <div class="container quiet-band">
-          <div>
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
             <p class="eyebrow">Our approach</p>
             <h2>Thoughtful, community-based support for real-life needs.</h2>
           </div>
-          <div class="quiet-band__grid">
-            <article>
+          <div class="values-grid">
+            <article class="value-card">
               <h3>Responsive</h3>
               <p>We aim to meet people where they are and help them move toward stability.</p>
             </article>
-            <article>
+            <article class="value-card">
               <h3>Connected</h3>
               <p>We build care around people, families, relationships, and support systems.</p>
             </article>
-            <article>
+            <article class="value-card">
               <h3>Practical</h3>
               <p>We focus on support that feels useful, grounded, and sustainable over time.</p>
             </article>
@@ -191,7 +203,28 @@
         </div>
       </section>
 
-      <section class="section" id="intake">
+      <section class="section section--soft" id="founder">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Leadership</p>
+            <h2>Meet the founder</h2>
+          </div>
+          <div class="founder-card">
+            <div class="founder-avatar" aria-hidden="true">AS</div>
+            <div>
+              <p class="founder-name"><strong>Amber Skinner</strong></p>
+              <p class="founder-role">CEO &amp; Authorized Official</p>
+              <p class="founder-bio">
+                Amber founded Skinner Legacies to bring accessible behavioral health and community
+                support to Berea and the surrounding area. Her full bio and background are on the
+                way, along with the rest of the Skinner Legacies team as it grows.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
         <div class="container contact-layout">
           <div class="contact-panel">
             <p class="eyebrow">Inquiry form</p>
@@ -215,6 +248,7 @@
                 Monday &ndash; Friday, 9:00 AM &ndash; 5:00 PM
               </li>
             </ul>
+            <p class="contact-note">A photo of our building and more about our space are coming soon.</p>
 
             <div class="success-card" id="thank-you" tabindex="-1">
               <strong>Thank you.</strong>
@@ -294,6 +328,47 @@
           </form>
         </div>
       </section>
+
+      <section class="cta-band">
+        <div class="container">
+          <h2>Ready to talk about care that fits your family?</h2>
+          <a class="button button--secondary" href="#contact">Start an Inquiry</a>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="images/logo-official.png" alt="Skinner Legacies" />
+            <p>Behavioral health and community support in Berea, Ohio.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Site</h4>
+              <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#founder">Our Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Reach Us</h4>
+              <ul>
+                <li><a href="tel:14406663994">440-666-3994</a></li>
+                <li>Berea, OH 44017</li>
+                <li>Mon &ndash; Fri, 9:00 AM &ndash; 5:00 PM</li>
+                <li>In crisis? Call or text <a href="tel:988">988</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>&copy; 2026 Skinner Legacies LLC. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
