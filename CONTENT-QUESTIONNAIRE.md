@@ -4,8 +4,8 @@ For Amber. Answer whatever you can, whenever you have five minutes -
 nothing here is due all at once, and "I don't know yet" is a fine answer.
 
 ## 1. Basics (needed to go live)
-- [ ] Full street address (city/state/zip we already have: Berea, OH 44017)
-- [ ] Confirmed phone number for the public site (using 440-666-3994 for now)
+- [x] Full street address: 398 West Bagley Rd, Suite 10, Berea, OH 44017
+- [x] Phone: 440-467-1555, Fax: 440-399-9470
 - [ ] Hours of operation (using Mon-Fri, 9:00 AM - 5:00 PM for now)
 - [ ] A photo of the building/office (exterior is fine - phone photo is fine)
 - [ ] Which email should the "Contact/Referral" form deliver to?
