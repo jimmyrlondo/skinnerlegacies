@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('sl-theme');
+          if (saved === 'dark' || saved === 'light') {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cost of Services | Skinner Legacies</title>
+    <meta
+      name="description"
+      content="Skinner Legacies self-pay rates, insurance and Medicaid billing information, and your right to a Good Faith Estimate."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="/images/logo-mark-transparent.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/main.html" aria-label="Skinner Legacies home">
+          <img src="/images/logobannertransparent.png" alt="Skinner Legacies" />
+        </a>
+        <div class="nav-cta">
+          <nav aria-label="Primary">
+            <ul class="nav-list">
+              <li><a href="/main.html#about">About</a></li>
+              <li><a href="/main.html#services">Services</a></li>
+              <li><a href="/main.html#founder">Our Team</a></li>
+              <li><a href="/main.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+          <a class="button button--primary" href="/main.html#contact">Start an Inquiry</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="legal-hero">
+        <div class="container">
+          <p class="eyebrow">Patient Resources</p>
+          <h1>Cost of Services</h1>
+          <p class="legal-updated">Understanding the cost of care before services are provided.</p>
+        </div>
+      </section>
+
+      <section class="container legal-content">
+        <p>
+          Skinner Legacies wants clients to understand potential costs before services are provided.
+          Below is an overview of how billing works and our current self-pay rates. Your care team can
+          always answer specific questions about your own coverage and expected costs.
+        </p>
+
+        <div class="legal-callout">
+          <p class="legal-callout__title">Medicaid</p>
+          <p>
+            Skinner Legacies bills Medicaid and applicable managed care organizations for covered
+            medically necessary services. Medicaid clients will not be charged for covered services
+            when prohibited by law. If a requested service is noncovered, not authorized, or may
+            result in client responsibility, Skinner Legacies will discuss this before the service when
+            applicable.
+          </p>
+        </div>
+
+        <div class="legal-callout">
+          <p class="legal-callout__title">Commercial / Third-Party Coverage</p>
+          <p>
+            When Skinner Legacies accepts a third-party payer, claims may be submitted on your
+            behalf. You may be responsible for lawful deductibles, copayments, coinsurance, or
+            noncovered amounts. Verification or authorization does not guarantee payment.
+          </p>
+        </div>
+
+        <h2>Self-Pay Rates</h2>
+        <table>
+          <thead>
+            <tr><th>Service</th><th>Self-Pay Rate</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Diagnostic Assessment / Intake</td><td>$150 per assessment</td></tr>
+            <tr><td>Psychotherapy, 60 minutes</td><td>$100 per session</td></tr>
+            <tr><td>Psychotherapy, 30 minutes</td><td>$50 per session</td></tr>
+            <tr><td>CPST / Case Management</td><td>$50 per hour</td></tr>
+            <tr><td>TBS / PSR</td><td>$50 per hour</td></tr>
+            <tr><td>Mental Health Day Treatment</td><td>$200 per group/session</td></tr>
+            <tr><td>CANS Assessment</td><td>$100 per assessment</td></tr>
+            <tr><td>OhioRISE Behavioral Health Respite</td><td>$200 per session</td></tr>
+            <tr><td>Other applicable service</td><td>Fee disclosed before service</td></tr>
+          </tbody>
+        </table>
+
+        <h2>Good Faith Estimate</h2>
+        <p>
+          If you are uninsured or choose not to use insurance, you may have a federal right to receive
+          a Good Faith Estimate of expected charges. Skinner Legacies will provide one when required.
+          Estimates are based on information known at the time and may change if your needs or
+          services change.
+        </p>
+        <p>
+          Please notify Skinner Legacies of changes in coverage or payment information. You have the
+          right to ask questions about fees and known financial responsibility. See our complete
+          <a href="/documents/cost-of-services-good-faith-estimate.pdf" target="_blank" rel="noopener">Good Faith Estimate and Financial Policy</a>
+          for how estimates are prepared, delivered, and handled.
+        </p>
+
+        <h2>Questions About Fees</h2>
+        <p>
+          Contact our office at <a href="tel:14404671555">440-467-1555</a> or
+          <a href="mailto:info@skinnerlegacies.com">info@skinnerlegacies.com</a> with any billing or
+          cost questions before or after services.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="/images/logobannertransparent.png" alt="Skinner Legacies" />
+            <p>Behavioral health and community support in Berea, Ohio.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Site</h4>
+              <ul>
+                <li><a href="/main.html#about">About</a></li>
+                <li><a href="/main.html#services">Services</a></li>
+                <li><a href="/main.html#founder">Our Team</a></li>
+                <li><a href="/main.html#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Reach Us</h4>
+              <ul>
+                <li><strong>Office:</strong> <a href="tel:14404671555">440-467-1555</a></li>
+                <li><strong>Fax:</strong> 440-399-9470</li>
+                <li><strong>Email:</strong> <a href="mailto:info@skinnerlegacies.com">info@skinnerlegacies.com</a></li>
+                <li><strong>Address:</strong> <a href="https://maps.google.com/?q=398+West+Bagley+Rd+Suite+10+Berea+OH+44017" target="_blank" rel="noopener">398 West Bagley Rd, Suite 10, Berea, OH 44017</a></li>
+                <li><strong>Hours:</strong> Mon &ndash; Fri, 9:00 AM &ndash; 5:00 PM</li>
+                <li>In crisis? Call or text <a href="tel:988">988</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="/privacy/">Privacy Policy</a></li>
+                <li><a href="/hipaa-notice/">HIPAA Notice of Privacy Practices</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Patient Resources</h4>
+              <ul>
+                <li><a href="/documents/client-rights-policy.pdf" target="_blank" rel="noopener">Client Rights Policy</a></li>
+                <li><a href="/documents/grievance-policy.pdf" target="_blank" rel="noopener">Grievance Policy and Procedure</a></li>
+                <li><a href="/cost-of-services/">Cost of Services &amp; Good Faith Estimate</a></li>
+                <li><a href="/documents/reasonable-accommodations-policy.pdf" target="_blank" rel="noopener">Reasonable Accommodations Policy</a></li>
+                <li><a href="/handbook/">Client Handbook &amp; Orientation</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; 2026 Skinner Legacies LLC. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        'use strict';
+        var STORAGE_KEY = 'sl-theme';
+        var root = document.documentElement;
+        var toggle = document.getElementById('themeToggle');
+        var icon = toggle ? toggle.querySelector('i') : null;
+
+        function systemPrefersDark() {
+          return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+
+        function effectiveTheme() {
+          var explicit = root.getAttribute('data-theme');
+          if (explicit === 'dark' || explicit === 'light') return explicit;
+          return systemPrefersDark() ? 'dark' : 'light';
+        }
+
+        function render() {
+          if (!icon || !toggle) return;
+          var isDark = effectiveTheme() === 'dark';
+          icon.className = isDark ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+          toggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+
+        if (toggle) {
+          toggle.addEventListener('click', function () {
+            var next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-theme', next);
+            try { localStorage.setItem(STORAGE_KEY, next); } catch (e) {}
+            render();
+          });
+        }
+
+        render();
+      })();
+    </script>
+  </body>
+</html>

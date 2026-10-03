@@ -998,9 +998,8 @@ body.form-submitted #thank-you {
     columns: 1;
   }
 
-  .legal-content table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+  .legal-content th,
+  .legal-content td {
+    padding: 0.55rem 0.6rem;
   }
 }
