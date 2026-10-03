@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('sl-theme');
+          if (saved === 'dark' || saved === 'light') {
+            document.documentElement.setAttribute('data-theme', saved);
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client Handbook &amp; Orientation | Skinner Legacies</title>
+    <meta
+      name="description"
+      content="Skinner Legacies' client handbook: services, rights and responsibilities, confidentiality, safety procedures, grievances, and emergency resources."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="/images/logo-mark-transparent.png" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="/main.html" aria-label="Skinner Legacies home">
+          <img src="/images/logobannertransparent.png" alt="Skinner Legacies" />
+        </a>
+        <div class="nav-cta">
+          <nav aria-label="Primary">
+            <ul class="nav-list">
+              <li><a href="/main.html#about">About</a></li>
+              <li><a href="/main.html#services">Services</a></li>
+              <li><a href="/main.html#founder">Our Team</a></li>
+              <li><a href="/main.html#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to dark mode">
+            <i class="fa-solid fa-moon" aria-hidden="true"></i>
+          </button>
+          <a class="button button--primary" href="/main.html#contact">Start an Inquiry</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="legal-hero">
+        <div class="container">
+          <p class="eyebrow">Patient Resources</p>
+          <h1>Client Handbook &amp; Orientation</h1>
+          <p class="legal-updated">Berea Office &middot; 398 W. Bagley Rd., Suites 9 &amp; 10, Berea, OH 44017</p>
+        </div>
+      </section>
+
+      <section class="container legal-content legal-content--wide">
+        <div class="legal-callout">
+          <p class="legal-callout__title">Welcome</p>
+          <p>
+            This handbook explains what you can expect from Skinner Legacies, your rights and
+            responsibilities, program expectations, safety procedures, confidentiality practices, and
+            how to ask questions, provide feedback, or raise concerns. This handbook is provided as
+            part of client orientation. Staff will review it with you and answer questions.
+          </p>
+        </div>
+
+        <h2>Welcome &amp; How to Use This Handbook</h2>
+        <p>
+          Welcome to Skinner Legacies. Our goal is to provide respectful, person-centered behavioral
+          health services that recognize the whole person. We want you and your family or support
+          system, when appropriate, to understand your services and to participate actively in
+          decisions about care.
+        </p>
+        <p>
+          Staff will review this handbook with you during orientation and answer questions. You may
+          ask for information to be explained in a different way, in accessible language, or with
+          reasonable accommodations. This handbook does not replace individualized clinical
+          recommendations, your treatment plan, or notices required by law.
+        </p>
+
+        <div class="legal-toc">
+          <p>Handbook Contents</p>
+          <ol>
+            <li><a href="#s1">1. About Skinner Legacies and Services</a></li>
+            <li><a href="#s2">2. Person-Centered Philosophy and Participation in Care</a></li>
+            <li><a href="#s3">3. Client Rights</a></li>
+            <li><a href="#s4">4. Client Responsibilities</a></li>
+            <li><a href="#s5">5. Confidentiality, Privacy, and Information Sharing</a></li>
+            <li><a href="#s6">6. Consent to Treatment and Participation</a></li>
+            <li><a href="#s7">7. Behavioral Expectations and Program Rules</a></li>
+            <li><a href="#s8">8. Health, Safety, and Prohibited Items</a></li>
+            <li><a href="#s9">9. Medications Brought to the Program</a></li>
+            <li><a href="#s10">10. Emergency, Crisis, and After-Hours Services</a></li>
+            <li><a href="#s11">11. Severe Weather, Natural Disasters, and Overnight Emergencies</a></li>
+            <li><a href="#s12">12. Abuse, Neglect, Exploitation, and Other Safety Risks</a></li>
+            <li><a href="#s13">13. Complaints, Grievances, Appeals, and Medicaid Due Process</a></li>
+            <li><a href="#s14">14. Client Input, Feedback, and Satisfaction</a></li>
+            <li><a href="#s15">15. Financial Responsibilities and Good Faith Estimates</a></li>
+            <li><a href="#s16">16. Attendance, Scheduling, and Communication</a></li>
+            <li><a href="#s17">17. Transition, Discharge, and Continuity of Care</a></li>
+            <li><a href="#s18">18. Mandated or Court-Involved Services</a></li>
+            <li><a href="#s19">19. Professional Conduct and Boundaries</a></li>
+            <li><a href="#s20">20. Accessibility, Accommodations, and Communication Needs</a></li>
+            <li><a href="#s21">21. Technology, Telehealth, and Electronic Communication</a></li>
+            <li><a href="#s22">22. Emergency Resource Guide</a></li>
+            <li><a href="#s23">23. Office Layout and Designated Severe Weather Shelter Areas</a></li>
+          </ol>
+        </div>
+
+        <div class="legal-callout">
+          <p class="legal-callout__title">Important</p>
+          <p>
+            If you are experiencing an immediate medical, fire, safety, or life-threatening emergency,
+            call 911. If you or someone else is experiencing a mental health or suicide crisis, call or
+            text 988.
+          </p>
+        </div>
+
+        <h2 id="s1">1. About Skinner Legacies and Services</h2>
+        <p>
+          Skinner Legacies is a behavioral health organization serving adults, children, adolescents,
+          and families. Services are provided based on individual need, eligibility, clinical
+          appropriateness, payer requirements, and program availability.
+        </p>
+        <h3>Services May Include</h3>
+        <ul>
+          <li>Behavioral health assessment and psychotherapy/therapy.</li>
+          <li>Community Psychiatric Supportive Treatment (CPST) and case management.</li>
+          <li>Therapeutic Behavioral Services (TBS) and Psychosocial Rehabilitation (PSR), when available and clinically appropriate.</li>
+          <li>OhioRISE-related services, including CANS-related activities and Behavioral Health Respite when authorized and available.</li>
+          <li>Crisis intervention services within the scope of the agency.</li>
+          <li>Mental Health Day Treatment and structured group-based programming.</li>
+          <li>Care coordination, referrals, linkage to community resources, and collaboration with outside providers when authorized.</li>
+        </ul>
+        <p>
+          Not every service is appropriate or available for every person. Your care team will explain
+          the services recommended for you, the expected frequency and duration, and any
+          authorization or eligibility requirements.
+        </p>
+        <h3>Our Approach</h3>
+        <p>
+          Skinner Legacies emphasizes dignity, equality, cultural responsiveness, recovery,
+          resilience, choice, family involvement when appropriate, and services that build on each
+          person's strengths. Services should be provided in the least restrictive, most appropriate
+          setting consistent with safety and clinical need.
+        </p>
+
+        <h2 id="s2">2. Person-Centered Philosophy and Participation in Care</h2>
+        <p>
+          You are an active partner in your care. Person-centered services begin with your goals,
+          strengths, preferences, culture, needs, abilities, risks, and desired outcomes. Your
+          treatment team will work with you to develop and update your individualized plan.
+        </p>
+        <ul>
+          <li>Ask questions and receive understandable information about your care.</li>
+          <li>Participate in setting goals and choosing strategies that are clinically appropriate.</li>
+          <li>Identify people you want involved in your care, subject to consent and legal requirements.</li>
+          <li>Discuss what is working, what is not working, and what you would like changed.</li>
+          <li>Receive information about alternatives, referrals, and transitions when a service is not appropriate or available.</li>
+        </ul>
+
+        <h2 id="s3">3. Client Rights</h2>
+        <p>
+          Skinner Legacies respects the legal, civil, human, and treatment rights of every person
+          served. Rights are protected without retaliation for exercising them.
+        </p>
+        <ul>
+          <li>Be treated with consideration, respect, dignity, privacy, and freedom from discrimination.</li>
+          <li>Receive services in a safe, humane, and professional environment.</li>
+          <li>Receive information about services, staff roles, program expectations, fees, and available alternatives.</li>
+          <li>Participate in treatment planning and receive information needed to make informed decisions.</li>
+          <li>Refuse a service or withdraw consent when legally permitted, after being informed of reasonably foreseeable consequences.</li>
+          <li>Receive services free from abuse, neglect, exploitation, humiliation, retaliation, coercion, and unnecessary restriction.</li>
+          <li>Be free from seclusion and restraint by Skinner Legacies. Skinner Legacies does not use seclusion or restraint as a treatment intervention.</li>
+          <li>Have personal information kept confidential as required by law.</li>
+          <li>Request access to or amendment of records as permitted by law and agency policy.</li>
+          <li>Receive information about how to file a complaint, grievance, appeal, or request a Medicaid fair hearing when applicable.</li>
+          <li>Communicate concerns and provide feedback without interference or retaliation.</li>
+          <li>Request reasonable accommodations and communication assistance.</li>
+          <li>Receive services that consider cultural, linguistic, spiritual, accessibility, and other individual needs.</li>
+          <li>Be informed of significant changes in services, program rules, or your treatment plan.</li>
+          <li>Receive assistance with transition, discharge, and referrals when appropriate.</li>
+        </ul>
+        <div class="legal-callout">
+          <p class="legal-callout__title">No Retaliation</p>
+          <p>
+            You will not be denied appropriate services, punished, threatened, or treated differently
+            because you ask questions, make a complaint, file a grievance or appeal, request an
+            accommodation, or exercise a protected right.
+          </p>
+        </div>
+
+        <h2 id="s4">4. Client Responsibilities</h2>
+        <ul>
+          <li>Participate honestly and actively in assessment, treatment planning, and services.</li>
+          <li>Provide accurate information about health, medications, symptoms, risks, insurance, contact information, and other matters relevant to care.</li>
+          <li>Treat other clients, visitors, and personnel respectfully.</li>
+          <li>Follow reasonable safety rules and staff instructions during emergencies.</li>
+          <li>Keep scheduled appointments or notify the agency as soon as possible when you cannot attend.</li>
+          <li>Protect the privacy of other clients. Do not photograph, record, post, or share another client's information without permission.</li>
+          <li>Do not bring weapons, illegal substances, alcohol, or prohibited items onto agency property.</li>
+          <li>Tell staff promptly about safety concerns, threats, medical emergencies, suicidal thoughts, abuse, neglect, or other urgent risks.</li>
+          <li>Ask questions when you do not understand information or instructions.</li>
+          <li>Meet financial obligations that have been explained and agreed upon, when applicable.</li>
+        </ul>
+
+        <h2 id="s5">5. Confidentiality, Privacy, and Information Sharing</h2>
+        <p>
+          Skinner Legacies protects your health information in accordance with applicable privacy and
+          confidentiality laws. Information is accessed only by authorized individuals who need it for
+          treatment, payment, health care operations, legal requirements, or another permitted
+          purpose.
+        </p>
+        <h3>When Your Permission Is Generally Needed</h3>
+        <p>
+          When authorization is required, Skinner Legacies will ask you or your legally authorized
+          representative to sign an Authorization for Release of Information identifying what may be
+          shared, with whom, for what purpose, and for how long. Substance use disorder records may
+          receive additional protections under federal law.
+        </p>
+        <h3>When Information May Be Shared Without Your Authorization</h3>
+        <p>
+          The law permits or requires certain disclosures without written authorization. Examples may
+          include reporting suspected child abuse or neglect; reporting certain abuse, neglect, or
+          exploitation of vulnerable adults; responding to a serious and imminent safety threat when
+          legally permitted; medical emergencies; certain court orders or legal requirements; health
+          oversight activities; and other disclosures specifically permitted or required by law.
+        </p>
+        <div class="legal-callout">
+          <p class="legal-callout__title">Emergency Privacy</p>
+          <p>
+            In a genuine emergency, staff may share the minimum information reasonably necessary with
+            emergency responders or other appropriate persons when the law permits the disclosure to
+            protect health or safety.
+          </p>
+        </div>
+        <h3>Privacy in Group Services</h3>
+        <p>
+          Staff are required to protect confidentiality. Clients participating in groups are also
+          expected to respect the privacy of others. Skinner Legacies cannot guarantee that another
+          participant will maintain confidentiality outside the group, so clients should carefully
+          consider what personal information they choose to share.
+        </p>
+
+        <h2 id="s6">6. Consent to Treatment and Participation</h2>
+        <p>
+          Before services begin, Skinner Legacies obtains appropriate consent for treatment and
+          explains the nature and purpose of services, reasonably expected benefits and risks,
+          available alternatives, privacy practices, financial responsibilities, and other information
+          needed for informed participation.
+        </p>
+        <ul>
+          <li>Consent must be voluntary unless services are required under a lawful order or another legal exception applies.</li>
+          <li>Parents, guardians, custodians, or other legally authorized representatives may be involved when required or permitted by law.</li>
+          <li>Consent may be revisited when services materially change.</li>
+          <li>You may ask questions before signing any consent or authorization.</li>
+          <li>Refusing or withdrawing consent may affect the services Skinner Legacies can provide; staff will explain foreseeable consequences and available alternatives.</li>
+        </ul>
+
+        <h2 id="s7">7. Behavioral Expectations and Program Rules</h2>
+        <p>
+          Program expectations exist to protect the safety, privacy, dignity, and therapeutic
+          environment of everyone in the facility.
+        </p>
+        <ul>
+          <li>No violence, threats, intimidation, harassment, bullying, or deliberate destruction of property.</li>
+          <li>No weapons or items being used or threatened as weapons.</li>
+          <li>No alcohol, illegal drugs, unauthorized controlled substances, or misuse of legal substances on agency property.</li>
+          <li>No smoking, vaping, or other nicotine use inside the facility. Follow posted property rules regarding nicotine use.</li>
+          <li>No photographing, video recording, audio recording, livestreaming, or posting other clients without authorization.</li>
+          <li>Respect staff directions related to safety, emergencies, privacy, and program operations.</li>
+          <li>Maintain appropriate clothing and behavior for a professional treatment environment.</li>
+          <li>Do not engage in sexual activity, sexual harassment, or sexually inappropriate conduct on agency property.</li>
+          <li>Do not disrupt services in a way that prevents others from safely participating.</li>
+        </ul>
+        <h3>Restrictions and Consequences</h3>
+        <p>
+          Skinner Legacies uses the least restrictive response reasonably necessary. Depending on the
+          behavior and level of risk, staff may redirect behavior, develop a safety plan, temporarily
+          restrict access to a particular activity or area, contact a parent/guardian when appropriate,
+          arrange clinical review, pause a service, require a meeting before return, or initiate
+          discharge/transfer when continued participation cannot be provided safely.
+        </p>
+        <h3>Regaining Restricted Privileges</h3>
+        <p>
+          When a privilege or activity is temporarily restricted, staff will explain the reason, what
+          must occur for the restriction to be reconsidered, and how the client can demonstrate safe
+          participation. Restrictions are reviewed based on safety, clinical need, behavior, and
+          progress and are not used as punishment or retaliation.
+        </p>
+
+        <h2 id="s8">8. Health, Safety, and Prohibited Items</h2>
+        <ul>
+          <li>Seclusion and restraint are not used as treatment interventions by Skinner Legacies.</li>
+          <li>Nicotine products may not be used inside the facility.</li>
+          <li>Illegal drugs, alcohol, drug paraphernalia, and substances being misused are prohibited.</li>
+          <li>Weapons are prohibited on agency premises, subject to applicable law and emergency/law-enforcement circumstances.</li>
+          <li>Clients should immediately tell staff about spills, exposed wires, water leaks, tripping hazards, damaged equipment, unsafe behavior, or other environmental hazards.</li>
+          <li>Staff may contact emergency services or law enforcement when necessary to address an immediate safety threat.</li>
+        </ul>
+
+        <h2 id="s9">9. Medications Brought to the Program</h2>
+        <p>
+          Skinner Legacies is not a medication storage or dispensing site unless a specific program has
+          an approved process stating otherwise. Clients should keep medications secured and under
+          their own control or the control of an authorized caregiver.
+        </p>
+        <ul>
+          <li>Bring only medications needed for your personal use and keep them in the original labeled container whenever possible.</li>
+          <li>Do not share, sell, trade, or give medications to another person.</li>
+          <li>Tell staff promptly if a medication creates an urgent health concern or if accidental ingestion, overdose, or medication misuse is suspected.</li>
+          <li>Emergency medical services will be contacted when a medication-related event may be life-threatening.</li>
+          <li>Program-specific medication procedures, if applicable, will be explained separately.</li>
+        </ul>
+
+        <h2 id="s10">10. Emergency, Crisis, and After-Hours Services</h2>
+        <p>
+          Skinner Legacies is not an emergency department and does not replace 911, 988, or hospital
+          emergency services. Staff will assist with crisis response within the agency's scope and will
+          connect clients to higher levels of care when needed.
+        </p>
+        <table>
+          <thead>
+            <tr><th>Situation</th><th>What to Do</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Immediate medical, fire, violence, or life-threatening emergency</td><td>Call 911.</td></tr>
+            <tr><td>Suicide, mental health, or emotional crisis</td><td>Call or text 988. If there is immediate danger, call 911.</td></tr>
+            <tr><td>After-hours social service or emergency shelter/resource need</td><td>Call 211 or 216-436-2000.</td></tr>
+            <tr><td>Domestic violence safety need</td><td>Call 216-391-HELP (4357). Call 911 for immediate danger.</td></tr>
+            <tr><td>Child abuse or neglect concern</td><td>Cuyahoga County hotline: 216-696-KIDS (5437); call 911 for immediate danger.</td></tr>
+          </tbody>
+        </table>
+        <p>
+          If a crisis occurs during a Skinner Legacies service, staff will assess the immediate
+          situation, maintain safety, contact appropriate emergency/crisis resources, notify
+          appropriate supports when legally permitted, and document the response.
+        </p>
+
+        <h2 id="s11">11. Severe Weather, Natural Disasters, and Overnight Emergencies</h2>
+        <p>
+          Skinner Legacies maintains procedures for severe weather and other emergencies, including
+          tornadoes, severe thunderstorms, high winds, winter weather, flooding, utility failures, fire,
+          medical emergencies, bomb threats, and violent or threatening situations.
+        </p>
+        <h3>Severe Weather Shelter-in-Place</h3>
+        <p>At the Berea office, the designated severe weather shelter areas are:</p>
+        <ul>
+          <li>Office #1</li>
+          <li>Office #2</li>
+          <li>Bathroom</li>
+        </ul>
+        <p>
+          These rooms do not have windows. During a severe-weather warning or other event requiring
+          shelter-in-place, staff will direct clients, visitors, and personnel away from the Lobby and
+          Group Room windows/exterior doors and into the designated shelter areas. Everyone should
+          remain there until the warning ends or emergency officials indicate that it is safe to leave.
+        </p>
+        <h3>ReadyNotify</h3>
+        <p>
+          Cuyahoga County's ReadyNotify system provides emergency notifications, including weather
+          alerts and other safety information. Skinner Legacies may use ReadyNotify and other official
+          emergency alerts to monitor conditions and instructions affecting the Berea office. Clients
+          and families may also voluntarily register for ReadyNotify through Cuyahoga County.
+        </p>
+        <h3>Extended or Overnight Emergency</h3>
+        <p>
+          If a severe-weather or community emergency extends beyond normal business hours, clients
+          and personnel may remain sheltered at Skinner Legacies, including overnight when necessary,
+          when the building remains safe and sheltering in place is appropriate. Staff will continue to
+          monitor official instructions and address basic safety needs to the extent reasonably
+          possible.
+        </p>
+        <p>
+          If the building becomes unsafe, loses essential utilities for an extended period, or
+          authorities order evacuation, Skinner Legacies will follow emergency instructions and
+          coordinate relocation. Call 911 for immediate life-safety emergencies. For emergency shelter
+          or community-resource coordination, staff may contact 211. A specific external shelter is not
+          guaranteed because locations and availability may change during an emergency.
+        </p>
+        <h3>Emergency Supplies</h3>
+        <ul>
+          <li>First-aid supplies</li>
+          <li>Flashlights and available battery/charging capability</li>
+          <li>Bottled water and basic emergency supplies</li>
+          <li>Emergency contact information</li>
+          <li>Blankets or other basic comfort items when available</li>
+          <li>Communication devices for emergency alerts and calls</li>
+        </ul>
+
+        <h2 id="s12">12. Abuse, Neglect, Exploitation, and Other Safety Risks</h2>
+        <p>
+          Skinner Legacies personnel follow applicable mandatory-reporting and safety requirements.
+          If staff learn of suspected abuse, neglect, exploitation, sexual assault, serious self-harm
+          risk, overdose, violence, or another critical safety concern, staff may be required to take
+          protective action and make reports to appropriate authorities.
+        </p>
+        <p>
+          Whenever possible and legally appropriate, staff will explain what action is being taken and
+          why. Confidentiality does not prevent reports that are required by law or disclosures that
+          are legally permitted to address a serious safety concern.
+        </p>
+
+        <h2 id="s13">13. Complaints, Grievances, Appeals, and Medicaid Due Process</h2>
+        <p>
+          You have the right to raise a concern about services, personnel, access, treatment decisions,
+          program rules, privacy, discrimination, safety, billing, or any other aspect of your
+          experience.
+        </p>
+        <h3>How to Raise a Concern</h3>
+        <ul>
+          <li>Speak with the staff member involved, when comfortable.</li>
+          <li>Ask to speak with the Clinical Director or Chief Operating Officer.</li>
+          <li>Submit a written grievance using the Skinner Legacies grievance form or another written format.</li>
+          <li>Ask for assistance writing or communicating your grievance.</li>
+          <li>Use external complaint, appeal, or fair-hearing processes available through your payer, regulatory agency, or law.</li>
+        </ul>
+        <p>
+          Skinner Legacies will review grievances fairly, document the concern and response,
+          communicate the outcome as required, and protect clients from retaliation. See our
+          <a href="/documents/grievance-policy.pdf" target="_blank" rel="noopener">Grievance Policy and Procedure</a>
+          for the complete process and timelines.
+        </p>
+        <h3>Appeals and Medicaid Fair Hearing Rights</h3>
+        <p>
+          If a health plan or Medicaid entity denies, reduces, suspends, or terminates a covered
+          service, you may have appeal and/or state fair-hearing rights. Deadlines can apply. Any
+          notice you receive should explain the action, the reason, the deadline, and how to appeal or
+          request a hearing. Skinner Legacies can help you understand where to direct questions but
+          cannot guarantee the outcome of an appeal or hearing.
+        </p>
+
+        <h2 id="s14">14. Client Input, Feedback, and Satisfaction</h2>
+        <p>
+          Your feedback helps Skinner Legacies improve services. You may provide input through
+          conversations with staff, satisfaction surveys, grievances, treatment-plan reviews,
+          suggestion/feedback opportunities, stakeholder activities, or other methods offered by the
+          agency.
+        </p>
+        <ul>
+          <li>Feedback may be positive, negative, or suggest a change.</li>
+          <li>You may ask for help communicating feedback.</li>
+          <li>Providing feedback will not affect your right to appropriate services.</li>
+          <li>Skinner Legacies reviews feedback for trends and opportunities to improve quality, access, safety, and client experience.</li>
+        </ul>
+
+        <h2 id="s15">15. Financial Responsibilities and Good Faith Estimates</h2>
+        <p>
+          Before services, Skinner Legacies will explain known financial responsibilities to the extent
+          reasonably possible. Depending on coverage and service type, this may include insurance
+          billing, copayments, deductibles, coinsurance, self-pay charges, or services that are not
+          covered.
+        </p>
+        <p>
+          Uninsured or self-pay clients may receive a Good Faith Estimate when required. The estimate
+          is based on information available at the time and is not a guarantee that circumstances,
+          clinical needs, or the course of treatment will never change. See our
+          <a href="/documents/cost-of-services-good-faith-estimate.pdf" target="_blank" rel="noopener">Cost of Services &amp; Good Faith Estimate</a>
+          for current rates and policy.
+        </p>
+        <ul>
+          <li>Provide accurate and current insurance information.</li>
+          <li>Tell the office promptly if insurance coverage changes.</li>
+          <li>Ask questions about charges or estimates before services when possible.</li>
+          <li>Review financial notices and agreements provided by the agency.</li>
+          <li>Contact the office if you believe a bill or financial notice is incorrect.</li>
+        </ul>
+
+        <h2 id="s16">16. Attendance, Scheduling, and Communication</h2>
+        <p>
+          Consistent participation supports continuity and progress. Appointment expectations may
+          differ by program.
+        </p>
+        <ul>
+          <li>Arrive on time and be prepared to participate.</li>
+          <li>Notify Skinner Legacies as soon as possible if you need to cancel or reschedule.</li>
+          <li>Repeated missed appointments may result in outreach, treatment-plan review, service modification, transition, or discharge when clinically and administratively appropriate.</li>
+          <li>Keep your telephone number, address, emergency contact, guardian information, and insurance information current.</li>
+          <li>Do not use ordinary text, email, or social media for emergencies.</li>
+        </ul>
+
+        <h2 id="s17">17. Transition, Discharge, and Continuity of Care</h2>
+        <p>
+          Transition and discharge planning are part of treatment. Services may end or change when
+          goals are achieved, the client no longer meets medical necessity or program criteria, another
+          level of care is needed, the client requests discharge, eligibility/authorization ends, the
+          client relocates, participation cannot be safely maintained, or another clinically appropriate
+          reason applies.
+        </p>
+        <h3>When Services End</h3>
+        <p>
+          When possible, Skinner Legacies will involve you in planning, review progress and remaining
+          needs, provide recommendations or referrals, explain follow-up steps, and coordinate with
+          other providers when authorized. Emergency or urgent safety needs may require an immediate
+          transfer to a higher level of care.
+        </p>
+        <p>
+          A discharge does not prevent you from requesting services again in the future, subject to
+          clinical appropriateness, program availability, eligibility, and payer requirements.
+        </p>
+
+        <h2 id="s18">18. Mandated or Court-Involved Services</h2>
+        <p>
+          Some clients may participate because of a court order, probation/parole requirement, child
+          welfare plan, school requirement, employer requirement, or another external mandate.
+          Skinner Legacies will explain known reporting requirements and the limits of confidentiality
+          that apply to the referral.
+        </p>
+        <p>
+          Ending services does not necessarily end obligations imposed by a court, probation
+          department, child welfare agency, employer, school, or other referring authority. Required
+          reports or follow-up may still occur after discharge when authorized or required by law,
+          consent, or the applicable mandate.
+        </p>
+
+        <h2 id="s19">19. Professional Conduct and Boundaries</h2>
+        <p>
+          Skinner Legacies personnel are expected to maintain professional, ethical, and appropriate
+          boundaries. Staff should not exploit clients financially, emotionally, sexually, socially, or
+          otherwise.
+        </p>
+        <ul>
+          <li>Staff-client relationships must remain professional.</li>
+          <li>Staff may not engage in sexual or romantic relationships with current clients.</li>
+          <li>Staff should avoid conflicts of interest, coercion, favoritism, and inappropriate dual relationships.</li>
+          <li>Gifts, social media contact, transportation, financial transactions, or outside contact may be limited by agency policy and professional ethics.</li>
+          <li>Concerns about staff conduct may be reported through the grievance process without retaliation.</li>
+        </ul>
+
+        <h2 id="s20">20. Accessibility, Accommodations, and Communication Needs</h2>
+        <p>
+          Skinner Legacies seeks to provide meaningful access to services. Tell staff if you need a
+          reasonable accommodation or communication support because of a disability, literacy need,
+          language need, sensory limitation, mobility issue, or another barrier.
+        </p>
+        <p>
+          Requests will be considered individually. Skinner Legacies will work to identify a reasonable
+          and effective solution while maintaining safety, clinical appropriateness, and legal
+          requirements. See our
+          <a href="/documents/reasonable-accommodations-policy.pdf" target="_blank" rel="noopener">Reasonable Accommodations Policy</a>
+          for the full process.
+        </p>
+
+        <h2 id="s21">21. Technology, Telehealth, and Electronic Communication</h2>
+        <p>
+          Skinner Legacies uses electronic systems to support scheduling, documentation,
+          communication, and clinical operations. Electronic health information is maintained in
+          systems selected by the agency for health care operations and privacy/security needs.
+        </p>
+        <ul>
+          <li>Telehealth may be offered when clinically appropriate and permitted. Additional consent or instructions may apply.</li>
+          <li>Use a private location for telehealth whenever possible.</li>
+          <li>Do not record a telehealth or in-person service without authorization.</li>
+          <li>Electronic communication should not be used for emergencies.</li>
+          <li>Skinner Legacies personnel may verify identity before discussing protected information by phone or electronically.</li>
+          <li>Clients should protect their own portal, email, and device passwords and notify the agency if they believe communications have been compromised.</li>
+        </ul>
+
+        <h2 id="s22">22. Emergency Resource Guide</h2>
+        <p>
+          Keep this page available for quick reference. Resource availability and procedures can
+          change; emergency responders and local authorities may provide different instructions
+          during a specific event.
+        </p>
+        <table>
+          <thead>
+            <tr><th>Resource</th><th>Purpose</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>911</td><td>Police, fire, ambulance, immediate medical emergency, or immediate danger.</td></tr>
+            <tr><td>988</td><td>Suicide &amp; Crisis Lifeline. Call or text for mental health, suicide, or emotional crisis support.</td></tr>
+            <tr><td>211 / 216-436-2000</td><td>Cuyahoga County/United Way community-resource assistance, including emergency shelter coordination and other social service needs.</td></tr>
+            <tr><td>216-391-HELP (4357)</td><td>Domestic violence helpline; call 911 for immediate danger.</td></tr>
+            <tr><td>216-696-KIDS (5437)</td><td>Cuyahoga County child abuse/neglect hotline.</td></tr>
+            <tr><td>216-420-6700</td><td>Cuyahoga County adult protective services for abuse, neglect, self-neglect, or exploitation of older adults/adults with disabilities.</td></tr>
+            <tr><td>ReadyNotify</td><td>Cuyahoga County emergency notification system for weather alerts, emergency events, safety messages, and other local notifications.</td></tr>
+          </tbody>
+        </table>
+        <div class="legal-callout">
+          <p class="legal-callout__title">ReadyNotify</p>
+          <p>
+            Berea participates in Cuyahoga County ReadyNotify. Registration is voluntary. ReadyNotify
+            can send weather alerts, emergency-event notifications, safety messages, building-closure
+            information, water-boil alerts, and other community notifications. Visit Cuyahoga County's
+            ReadyNotify page to register.
+          </p>
+        </div>
+
+        <h2 id="s23">23. Office Layout &amp; Designated Severe Weather Shelter Areas</h2>
+        <p>
+          The Berea office layout below identifies the facility's rooms and exits. During severe
+          weather requiring shelter-in-place, staff will direct clients, visitors, and personnel to
+          Office #1, Office #2, and the Bathroom. These designated areas do not have windows.
+        </p>
+        <div class="legal-callout">
+          <p class="legal-callout__title">Designated Severe Weather Shelter Areas</p>
+          <p><strong>Office #1 &bull; Office #2 &bull; Bathroom</strong></p>
+          <p>Avoid the Lobby and Group Room windows/exterior doors during a severe-weather warning.</p>
+        </div>
+        <figure class="legal-figure">
+          <img src="/images/office-floor-plan.jpg" alt="Skinner Legacies Berea office floor plan showing Office #1, Office #2, the bathroom, lobby, group room, and marked exits" loading="lazy" />
+          <figcaption>Berea office, Suite 9 &amp; 10 &middot; 1,558 sq ft</figcaption>
+        </figure>
+        <p>
+          During an evacuation, follow staff instructions and use the safest available exit. Do not
+          re-enter the building until emergency officials or authorized Skinner Legacies personnel
+          indicate that it is safe.
+        </p>
+
+        <h2>Questions About This Handbook</h2>
+        <p>
+          Please ask a Skinner Legacies staff member if you have questions about any information in
+          this handbook, your services, your rights, program expectations, safety procedures, privacy,
+          billing, grievances, or available accommodations.
+        </p>
+        <p>
+          Skinner Legacies may update this handbook when laws, services, procedures, or agency
+          operations change. Clients will be informed of material changes as appropriate.
+        </p>
+
+        <a class="back-to-top" href="#top">&uarr; Back to top</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="/images/logobannertransparent.png" alt="Skinner Legacies" />
+            <p>Behavioral health and community support in Berea, Ohio.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Site</h4>
+              <ul>
+                <li><a href="/main.html#about">About</a></li>
+                <li><a href="/main.html#services">Services</a></li>
+                <li><a href="/main.html#founder">Our Team</a></li>
+                <li><a href="/main.html#contact">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Reach Us</h4>
+              <ul>
+                <li><a href="tel:14404671555">440-467-1555</a></li>
+                <li>Fax: 440-399-9470</li>
+                <li><a href="mailto:info@skinnerlegacies.com">info@skinnerlegacies.com</a></li>
+                <li><a href="https://maps.google.com/?q=398+West+Bagley+Rd+Suite+10+Berea+OH+44017" target="_blank" rel="noopener">398 West Bagley Rd, Suite 10<br />Berea, OH 44017</a></li>
+                <li>Mon &ndash; Fri, 9:00 AM &ndash; 5:00 PM</li>
+                <li>In crisis? Call or text <a href="tel:988">988</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul>
+                <li><a href="/privacy/">Privacy Policy</a></li>
+                <li><a href="/hipaa-notice/">HIPAA Notice of Privacy Practices</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Patient Resources</h4>
+              <ul>
+                <li><a href="/documents/client-rights-policy.pdf" target="_blank" rel="noopener">Client Rights Policy</a></li>
+                <li><a href="/documents/grievance-policy.pdf" target="_blank" rel="noopener">Grievance Policy and Procedure</a></li>
+                <li><a href="/documents/cost-of-services-good-faith-estimate.pdf" target="_blank" rel="noopener">Cost of Services &amp; Good Faith Estimate</a></li>
+                <li><a href="/documents/reasonable-accommodations-policy.pdf" target="_blank" rel="noopener">Reasonable Accommodations Policy</a></li>
+                <li><a href="/handbook/">Client Handbook &amp; Orientation</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-accreditation">
+          <div class="footer-accreditation__badge" aria-hidden="true">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <p>
+            <strong>CARF Accredited.</strong>
+            CARF International is an independent, nonprofit accreditor of health and human services.
+            <a href="https://www.carf.org/" target="_blank" rel="noopener">Learn more at carf.org</a>.
+          </p>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; 2026 Skinner Legacies LLC. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        'use strict';
+        var STORAGE_KEY = 'sl-theme';
+        var root = document.documentElement;
+        var toggle = document.getElementById('themeToggle');
+        var icon = toggle ? toggle.querySelector('i') : null;
+
+        function systemPrefersDark() {
+          return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        }
+
+        function effectiveTheme() {
+          var explicit = root.getAttribute('data-theme');
+          if (explicit === 'dark' || explicit === 'light') return explicit;
+          return systemPrefersDark() ? 'dark' : 'light';
+        }
+
+        function render() {
+          if (!icon || !toggle) return;
+          var isDark = effectiveTheme() === 'dark';
+          icon.className = isDark ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+          toggle.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+        }
+
+        if (toggle) {
+          toggle.addEventListener('click', function () {
+            var next = effectiveTheme() === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-theme', next);
+            try { localStorage.setItem(STORAGE_KEY, next); } catch (e) {}
+            render();
+          });
+        }
+
+        render();
+      })();
+    </script>
+  </body>
+</html>
