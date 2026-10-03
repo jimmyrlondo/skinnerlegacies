@@ -738,6 +738,11 @@ body.form-submitted #thank-you {
   color: rgba(255, 255, 255, 0.78);
 }
 
+.footer-col li strong {
+  color: #fff;
+  font-weight: 700;
+}
+
 .footer-col a:hover,
 .footer-col a:focus-visible {
   color: #fff;
